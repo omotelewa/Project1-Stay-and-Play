@@ -3,3 +3,30 @@
   right: 5px;
   bottom: 8px;
 }
+
+p{
+  color:#0a93a6; 
+  text-decoration:none;
+  background-color: #120c4d; 
+  text-align: center;
+}
+
+.container-fluid{
+  padding-bottom: 60px;
+  padding-top: 50px;
+}
+
+.navbar{
+  background-color: #12406a;
+  color: #adbed2;
+}
+
+.nav-link{
+  color: black;
+}
+
+button{
+  background-color: #eb8f90;
+  color: #12406a;
+}
+

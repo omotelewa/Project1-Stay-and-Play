@@ -3,6 +3,7 @@ var data;
 $("#run-search").on("click", function (event) {
 
   event.preventDefault();
+// merging test
 
   // Set the API key
   var queryParams = "&apikey=RAgvUGZ0z6k7b7KSCvNST1WATfPj064c";

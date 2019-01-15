@@ -5,9 +5,9 @@
 }
 
 p{
-  color:#0a93a6; 
+  color: #adbed2;
   text-decoration:none;
-  background-color: #120c4d; 
+  background-color: #12406a; 
   text-align: center;
 }
 
@@ -23,6 +23,7 @@ p{
 
 .nav-link{
   color: black;
+  
 }
 
 button{

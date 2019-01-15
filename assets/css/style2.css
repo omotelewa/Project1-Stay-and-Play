@@ -14,11 +14,14 @@ p{
 .container-fluid{
   padding-bottom: 60px;
   padding-top: 50px;
+  background-color: #ebebf0;
 }
 
 .navbar{
   background-color: #12406a;
   color: #adbed2;
+  font-size: 16px;
+  font-weight: bolder;
 }
 
 .nav-link{
@@ -28,6 +31,21 @@ p{
 
 button{
   background-color: #eb8f90;
+  color: #12406a;
+}
+
+.first-section{
+  background-color: #eb8f90;
+  color: #12406a;
+}
+
+.second-section{
+  background-color: #ffb471;
+  color: #12406a;
+}
+
+.third-section{
+  background-color: #adbed2;
   color: #12406a;
 }
 

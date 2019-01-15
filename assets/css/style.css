@@ -11,8 +11,44 @@ footer{
    color: #CCC;
 }
 
+<<<<<<< HEAD
+label {
+  display: inline-block;
+  margin-bottom: .5rem;
+  margin-left: 270px;
+  padding-top: 20px;
+}
+
+.searchSite {
+  border: 0;
+  line-height: 2.5;
+  padding-top: 40px;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgb(84, 0, 220);
+  background-image: linear-gradient(to top left,
+                                    rgba(0, 0, 0, .2),
+                                    rgba(0, 0, 0, .2) 30%,
+                                    rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+              inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+              inset 2px 2px 3px rgba(0, 0, 0, .6);
+=======
 footer p {
    padding: 10.5px;
    margin: 0px;
    line-height: 100%;
+>>>>>>> 37a7fdc3173faeab6bf93c519366abd354a93959
 }

@@ -37,15 +37,21 @@ button{
 .first-section{
   background-color: #eb8f90;
   color: #12406a;
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .second-section{
   background-color: #ffb471;
   color: #12406a;
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .third-section{
   background-color: #adbed2;
   color: #12406a;
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
 }
 

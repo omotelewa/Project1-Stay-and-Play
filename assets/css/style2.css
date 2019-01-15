@@ -34,7 +34,7 @@ button{
   color: #12406a;
 }
 
-.first-section{
+/* .first-section{
   background-color: #eb8f90;
   color: #12406a;
   font-weight: bolder;
@@ -53,14 +53,28 @@ button{
   color: #12406a;
   font-weight: bolder;
   font-family: 'Montserrat', sans-serif;
-}
+} */
 
 .nav-link:hover {
   background-color: #72996d;
 }
 
-.page1, .page2, .page3, .page4, .page5, .page6, .page7, .page8, .page9, .page10, .page11, .page12, .page13{
+.page1, .page2, .page3, .page4, .page5, .page6{
   background-color: #72996d;
 
   font-family: 'Montserrat', sans-serif;
+}
+
+img{
+  align-content: center;
+  width: 100%;
+  height: 600px;
+}
+
+.form-inline .form-control{
+  width: 75%;
+}
+
+.btn{
+  width: 25%;
 }

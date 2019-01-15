@@ -1,20 +1,17 @@
+/* Footer */
 
-body {
-    margin: 0%;
-    padding-top: 20px;
-  }
-
-
-.carousel-item{
-  height: 300px;
-} 
-.carousel-item img{
-  height: 410px;
-  width: 300px;
-  
-  
+footer{
+  background-color: #424558;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: 35px;
+   text-align: center;
+   color: #CCC;
 }
 
+<<<<<<< HEAD
 label {
   display: inline-block;
   margin-bottom: .5rem;
@@ -48,4 +45,10 @@ label {
 .styled:active {
   box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
               inset 2px 2px 3px rgba(0, 0, 0, .6);
+=======
+footer p {
+   padding: 10.5px;
+   margin: 0px;
+   line-height: 100%;
+>>>>>>> 37a7fdc3173faeab6bf93c519366abd354a93959
 }

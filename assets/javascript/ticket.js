@@ -61,3 +61,10 @@ $("#run-search").on("click", function (event) {
 
 
 })
+// var newEvent = "<tr>"
+//         newEvent += "<td>" + currentEvent.name.text + "</td>";
+//         newEvent += "<td>" + currentEvent.venue.address.address_1 + "</td>";
+//         newEvent += "<td>" + currentEvent.venue.address.city + "</td>";
+//         newEvent += "<td>" + currentEvent.start.local + "</td>";
+//         newEvent += "</tr>";
+//         $('.table').append(newEvent);

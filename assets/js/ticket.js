@@ -42,7 +42,7 @@ $("#run-search").on("click", function (event) {
      dataDiv.append(pThree); 
 
      // Retrieving the URL for the image
-     var imgURL = data[i].images[0].url;
+     var imgURL = data[i].images[4].url;
      console.log(imgURL);
 
      // Creating an element to hold the image

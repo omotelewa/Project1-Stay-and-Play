@@ -38,6 +38,7 @@ $(document).ready(function () {
     // 2) in this function (right below this line), capture what was typed into the searchbox
     var searchTerm = $("#searchSite").val().trim();
     
+    console.log("searchTerm: ", searchTerm);
     // 3) place searchTerm into queryURL below (see where we're adding it in below)
     
     

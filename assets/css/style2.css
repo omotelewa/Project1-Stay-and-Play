@@ -55,3 +55,6 @@ button{
   font-family: 'Montserrat', sans-serif;
 }
 
+.nav-link:hover {
+  background-color: #72996d;
+}

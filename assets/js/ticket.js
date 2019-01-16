@@ -12,7 +12,7 @@ $("#run-search").on("click", function (event) {
   var keyword = $("#search-keyword").val().trim();
 
   //
-  var queryURL = "https://app.ticketmaster.com/discovery/v2/events.json?" + "keyword=" + keyword + queryParams;
+  var queryURL = "https://api.ticketmaster.com/discovery/v2/events.json?" + "keyword=" + keyword + queryParams;
 
   $.ajax({
     url: queryURL,

@@ -31,7 +31,7 @@ $("#submit").on("click", function (event) {
                 </thead>`);
               
 
-        for (var i = 0; i < response.businesses.length; i++) {
+        for (var i = 0; i < 10; i++) {
             var dataBody = $("<tbody>").html(
                 `<tr>
                    <th scope="row">${[i + 1 ]}</th>

@@ -12,7 +12,7 @@ $("#run-search").on("click", function (event) {
   var keyword = $("#search-keyword").val().trim();
 
   //
-  var queryURL = "https://api.ticketmaster.com/discovery/v2/events.json?" + "keyword=" + keyword + queryParams;
+  var queryURL = "https://alex-rosencors.herokuapp.com/?url=https://app.ticketmaster.com/discovery/v2/events.json?" + "keyword=" + keyword + queryParams;
 
   $.ajax({
     url: queryURL,
@@ -61,3 +61,10 @@ $("#run-search").on("click", function (event) {
 
 
 })
+// var newEvent = "<tr>"
+//         newEvent += "<td>" + currentEvent.name.text + "</td>";
+//         newEvent += "<td>" + currentEvent.venue.address.address_1 + "</td>";
+//         newEvent += "<td>" + currentEvent.venue.address.city + "</td>";
+//         newEvent += "<td>" + currentEvent.start.local + "</td>";
+//         newEvent += "</tr>";
+//         $('.table').append(newEvent);

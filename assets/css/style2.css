@@ -1,14 +1,15 @@
-.float-right{
+/* .float-right{
   position: absolute;
   right: 5px;
   bottom: 8px;
-}
+} */
 
 p{
-  color: #adbed2;
+  color: #12406a;
   text-decoration:none;
-  background-color: #12406a; 
+  background-color: #adbed2; 
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .container-fluid{
@@ -18,42 +19,34 @@ p{
 }
 
 .navbar{
-  background-color: #12406a;
+  background-color: #eb8f90;
   color: #adbed2;
-  font-size: 16px;
-  font-weight: bolder;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 .nav-link{
-  color: black;
-  
+  color: #12406a;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+   
+}
+
+#home-btn{
+  margin-left: 10px;
+  font-size: 50px;
+  color: #12406a;
+  font-family: 'Montserrat', sans-serif;
+ 
 }
 
 button{
   background-color: #eb8f90;
   color: #12406a;
 }
-
-/* .first-section{
-  background-color: #eb8f90;
-  color: #12406a;
-  font-weight: bolder;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.second-section{
-  background-color: #ffb471;
-  color: #12406a;
-  font-weight: bolder;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.third-section{
-  background-color: #adbed2;
-  color: #12406a;
-  font-weight: bolder;
-  font-family: 'Montserrat', sans-serif;
-} */
 
 .nav-link:hover {
   background-color: #72996d;
@@ -79,3 +72,17 @@ img{
   width: 25%;
 }
 
+.content-container{
+  padding-top: 40px;
+}
+
+.table {
+  width: 80%;
+  margin: 0 auto;
+  background: beige;
+  border: 1px solid black;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: .8rem;
+}

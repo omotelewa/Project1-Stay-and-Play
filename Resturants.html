@@ -5,81 +5,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="assets/css/style2.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
-  <title>Title</title>
+  <link rel="stylesheet" href="assets/css/style2.css">
+  <title>Restaurants</title>
 </head>
 
 <body>
+  <!-- merger test -->
 
     <nav class="navbar">
         <a class="navbar-brand float-left" href="index.html">Stay & Play</a>
         <a class="nav-link page1" href="Resturants.html">Resturants</a>
-        <a class="nav-link" href="Recipes.html">Recipes</a>
+        <!-- <a class="nav-link" href="Recipes.html">Recipes</a> -->
         <a class="nav-link" href="Entertainment.html">Entertainment</a>
         <a class="nav-link" href="Events.html">Events</a>
       </nav>
 
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
-      <h1 class="display-4">Resturants</h1>
+      <h1 class="display-4">Restaurants</h1>
       <div class="lead">Looking for your new favorite place to eat. Search below to see all the fun options you have!</div>
 
       <form class="form">
-          <input class="form-control mr-sm-2" type="search" placeholder="Enter Text Here" aria-label="Search">
-          <button class="btn btn-outline my-2 my-sm-0" type="submit">Search</button>
+          <input class="form-control mr-sm-2" id="businessLocation"type="search" placeholder="Enter Text Here" aria-label="Search">
+          <button class="btn btn-outline my-2 my-sm-0" id="submit" type="submit">Search</button>
         </form>
     </div>
   </div>
+  <div class="card-body" id="searchResult"></div>
   <img src="assets/images/resturants/pexels-photo-958545.jpeg" alt="Resturants">
 
-  <!-- <div class="carousel-item">
-            <img src="assets/images/resturants/pexels-photo-958545.jpeg" alt="Resturants">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>...</h5>
-              <p>...</p>
-            </div>
-          </div>
-        </div> -->
-
-  <!-- <div class="row">
-          <div class="col-5 col-md-4 d-flex justify-content-around"><img src="assets/images/small-pic.jpeg" alt="working out image" class="img-thumbnail"></div>
-
-          <div class="col-12 col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo animi ea nesciunt
-            id accusantium eum voluptatibus ratione illum recusandae quas modi debitis sit provident doloribus sunt
-            officiis iste, pariatur et. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero ipsam aliquid
-            corporis cum numquam error reprehenderit aspernatur ipsa qui et, consequatur asperiores esse iure officia
-            doloribus nostrum consectetur? Dolore, ipsum! Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Quis voluptatibus culpa nobis quo veniam reiciendis natus id laboriosam voluptates deserunt, quia a quos
-            tenetur temporibus dolore quam nulla quisquam. Fugit.</div>
-
-            <div class="col-5 col-md-4 d-flex justify-content-around"><img src="assets/images/small-pic.jpeg" alt="working out image" class="img-thumbnail"></div>
-          <div class="col-12 col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo animi ea nesciunt
-            id accusantium eum voluptatibus ratione illum recusandae quas modi debitis sit provident doloribus sunt
-            officiis iste, pariatur et. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero ipsam aliquid
-            corporis cum numquam error reprehenderit aspernatur ipsa qui et, consequatur asperiores esse iure officia
-            doloribus nostrum consectetur? Dolore, ipsum! Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Quis voluptatibus culpa nobis quo veniam reiciendis natus id laboriosam voluptates deserunt, quia a quos
-            tenetur temporibus dolore quam nulla quisquam. Fugit.</div>
-
-            <div class="col-5 col-md-4 d-flex justify-content-around"><img src="assets/images/small-pic.jpeg" alt="working out image" class="img-thumbnail"></div>
-          <div class="col-12 col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo animi ea nesciunt
-            id accusantium eum voluptatibus ratione illum recusandae quas modi debitis sit provident doloribus sunt
-            officiis iste, pariatur et. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero ipsam aliquid
-            corporis cum numquam error reprehenderit aspernatur ipsa qui et, consequatur asperiores esse iure officia
-            doloribus nostrum consectetur? Dolore, ipsum! Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Quis voluptatibus culpa nobis quo veniam reiciendis natus id laboriosam voluptates deserunt, quia a quos
-            tenetur temporibus dolore quam nulla quisquam. Fugit.</div> -->
-
-
-
-
-
-
-
-
+  
   <footer>
     <p>© 2019<a href="#"> Rutgers Coding BootCamp Team Project</a>, All rights reserved 2018-2019.</p>
   </footer>
@@ -87,10 +45,10 @@
 
 
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
-  <script src="assets/javascript/javascript.js"></script>
+  <script src="assets/javascript/yelp.js"></script>
 
 </body>
 

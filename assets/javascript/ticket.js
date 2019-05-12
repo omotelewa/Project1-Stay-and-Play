@@ -12,7 +12,8 @@ $("#run-search").on("click", function (event) {
   var keyword = $("#search-keyword").val().trim();
 
   //
-  var queryURL = "https://alex-rosencors.herokuapp.com/?url=https://app.ticketmaster.com/discovery/v2/events.json?" + "keyword=" + keyword + queryParams;
+   var queryURL = "https://alex-rosencors.herokuapp.com/?url=https://app.ticketmaster.com/discovery/v2/events.json?" + "keyword=" + keyword + queryParams;
+  // var queryURL = "https://alex-rosencors.herokuapp.com/?url=https://rest.bandsintown.com/artists/" + keyword + "/events?app_id=e1ba7c7a-44d1-4d3e-a299-176f4592a8c3";//
 
   $.ajax({
     url: queryURL,

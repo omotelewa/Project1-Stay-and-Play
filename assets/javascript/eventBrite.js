@@ -29,7 +29,7 @@ $(document).ready(function () {
         newEvent += "<td>" + response.events[i].venue.address.city + "</td>";
         newEvent += "<td>" + response.events[i].start.local + "</td>";
         newEvent += "</tr>";
-        
+
         $('.table').append(newEvent);
       };
     });

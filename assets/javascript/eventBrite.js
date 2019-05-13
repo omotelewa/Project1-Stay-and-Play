@@ -22,7 +22,7 @@ $(document).ready(function () {
 
       console.log("Data: ", eventData);
 
-        for (var i = 0; i < 7; i++) {
+        for (var i = 0; i < 10; i++) {
         newEvent = "<tr>"
         newEvent += "<td>" + response.events[i].name.text + "</td>";
         newEvent += "<td>" + response.events[i].venue.address.address_1 + "</td>";

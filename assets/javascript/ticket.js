@@ -3,7 +3,7 @@ var data;
 $("#run-search").on("click", function (event) {
 
   event.preventDefault();
-// merging test
+  // merging test
 
   // Set the API key
   var queryParams = "&apikey=RAgvUGZ0z6k7b7KSCvNST1WATfPj064c";
@@ -14,6 +14,7 @@ $("#run-search").on("click", function (event) {
   //
   var queryURL = "https://alex-rosencors.herokuapp.com/?url=https://app.ticketmaster.com/discovery/v2/events.json?" + "keyword=" + keyword + queryParams;
 
+
   $.ajax({
     url: queryURL,
     method: "GET"
@@ -22,49 +23,32 @@ $("#run-search").on("click", function (event) {
     console.log(response);
     var data = response._embedded.events;
 
-    for (i = 0; i < 5; i++) {
-      var dataDiv = $("<div class='data'>");
+    var tableData = $("<table class=table>").html(
+      `<thead>
+          <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name</th>
+          <th scope="col">Date</th>
+          <th scope="col">Time</th>
+          <th scope="col">Website</th>
+          </tr>
+      </thead>`);
+
+
+    for (var i = 0; i < 10; i++) {
+      var dataBody = $("<tbody>").html(
+        `<tr>
+         <th scope="row">${[i + 1]}</th>
+         <td>${data[i].name}</td>
+         <td>${data[i].dates.start.localDate}</td>
+         <td>${data[i].dates.start.localTime}</td>
+         <td> <a href="${data[i].url}"> LINK </a></td>
+       </tr>`);
+
+      $(tableData).append(dataBody);
+      $("#events-section").append(tableData);
+    };
+  });
+});
     
-    // name display
-     var name = data[i].name;
-     var pOne = $("<p>").text("Name of Ticket: " + name);
-     dataDiv.append(pOne);
 
-     // website
-   
-    var website = data[i].url;
-    var pTwo = $("<p>").text("Website: " + website);
-     dataDiv.append(pTwo);
-
-     //date
-    console.log(data[i].dates.start);
-     var date = data[i].dates.start.localDate;
-     var pThree = $("<p>").text("Date: " + date);
-     dataDiv.append(pThree); 
-
-     // Retrieving the URL for the image
-     var imgURL = data[i].images[4].url;
-     console.log(imgURL);
-
-     // Creating an element to hold the image
-     var image = $("<img class='img-fluid'>").attr("src", imgURL);
-
-     // Appending the image
-     dataDiv.append(image);
-
-     $("#events-section").prepend(dataDiv);
-
-    }
-
-
-  })
-
-
-})
-// var newEvent = "<tr>"
-//         newEvent += "<td>" + currentEvent.name.text + "</td>";
-//         newEvent += "<td>" + currentEvent.venue.address.address_1 + "</td>";
-//         newEvent += "<td>" + currentEvent.venue.address.city + "</td>";
-//         newEvent += "<td>" + currentEvent.start.local + "</td>";
-//         newEvent += "</tr>";
-//         $('.table').append(newEvent);
